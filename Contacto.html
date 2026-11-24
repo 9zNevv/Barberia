@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Barbería CUT & FLOW</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="cabezera">
+        <div class="logo">
+            <div class="icono-logo">
+                <img src="img/images__52_-removebg-preview.png" alt="Logo CUT & FLOW" class="img">
+            </div>
+            <span class="marca-texto">CUT & FLOW</span>
+        </div>
+        <nav class="menu" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Galeria.html">Galería</a>
+            <a href="Barberos.html">Barberos</a>
+            <a href="Contacto.html" aria-current="page">Contacto</a>
+        </nav>
+        <a href="Cita.html" class="btn-header">Agendar cita</a>
+    </header>
+    <main>
+        <section class="contacto">
+            <h1>Contacto</h1>
+            <p>Escríbenos o visítanos en Chancay.</p>
+            <div class="contacto-caja">
+                <address>
+                    Av. Principal 123, Local 4, Chancay<br>
+                    Lun - Sáb: 9:00 AM - 8:00 PM<br>
+                    <a href="#">+51 999 888 777</a> · <a href="#">contacto@cutandflow.pe</a>
+                </address>
+
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu consulta..." required></textarea>
+
+                    <button type="submit" onclick="Enviar()">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+    <footer class="footer">
+        <div class="top">
+            <div>
+                <h2>CUT <span>&</span> FLOW</h2>
+                <p>Barbería clásica y estilo urbano.</p>
+            </div>
+            <nav aria-label="Enlaces rápidos del pie de página">
+                <a href="index.html">Inicio</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Barberos.html">Barberos</a>
+                <a href="Cita.html" class="cta">Reservar</a>
+            </nav>
+            <address>
+                Lun - Sáb: 9:00 AM - 8:00 PM<br>
+                Av. Principal 123, Chancay<br>
+                <a href="#">+51 999 888 777</a>
+            </address>
+        </div>
+    </footer>
+</body>
+</html>
