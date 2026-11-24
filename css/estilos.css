@@ -274,3 +274,70 @@ body {
 .contacto button:hover {
     background-color: #dfb676;
 }
+.sap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 350px); 
+    gap: 70px;
+    padding: 40px; 
+    justify-content: center;
+   
+}
+.cuadro{
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+.cuadro:hover{
+    transform: translateY(-8px); /*elevacion de los cuadros*/
+}
+.cuadro img{
+    width: 100%;
+    height: 200px;
+    display: block;  
+}
+.cuadro h3{
+    margin: 15px 0 10px;
+    color: #020202;
+}
+.cuadro p{
+    color: #000000;
+}
+.titulo-seccion{
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 55px;
+    margin: 40px 0;    
+}
+.bt{
+    margin-bottom:15px;
+    color: rgb(255, 255, 255);
+    background-color:#dfb676;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: solid #dfb676;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media (max-width:768px){
+    .titulo-seccion{
+        font-size: 35px;
+    }
+   .contenedor{  
+   
+   display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;  
+   }  
+   }
